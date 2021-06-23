@@ -2,12 +2,27 @@
 			<footer class="row mx-0">
 				<div class="col col-sm-4">
 					<h2>Contáctanos</h2>
+					<a href="mailto:jorge.arguelles@outlook.com"><img src="" alt=""> Contacto</a>
+					<br>
+					<a href="tel:08001222476"><img src="" alt=""> 0800 122 2476</a>
 				</div>
 				<div class="col col-sm-4 text-center">
 					<h2>Navega en Rotoplas Sustentabilidad</h2>
 				</div>
 				<div class="col col-sm-4">
 					<h2>Siguenos</h2>
+					<a class="hvr-float" href="https://www.facebook.com/RotoplasMexico" target="_blank">
+						<img src="recursos/redes-sociales/facebook.svg?5f32c575" alt="Facebook" title="Facebook">
+					</a>
+					<a class="hvr-float" href="https://twitter.com/rotoplasmexico" target="_blank">
+						<img src="recursos/redes-sociales/twitter.svg?5f32c574" alt="Twitter" title="Twitter">
+					</a>
+					<a class="hvr-float" href="https://www.youtube.com/user/masymejoragua" target="_blank">
+						<img src="recursos/redes-sociales/youtube.svg?5f32c574" alt="Youtube" title="Youtube">
+					</a>
+					<a class="hvr-float" href="https://www.instagram.com/gruporotoplas/" target="_blank">
+						<img src="recursos/redes-sociales/instagram.svg" alt="Instagram" title="Instagram">
+					</a>
 				</div>
 				<div class="row">
 					<div class="col">Copyright 2021 Rotoplas S.A. de C.V. Todos los derechos reservados</div>

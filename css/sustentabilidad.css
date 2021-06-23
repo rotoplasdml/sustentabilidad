@@ -1,17 +1,75 @@
-footer {
-    background: #002554;
-    color: #ffffff;
-}
+/* ==============================================================
+*  FUENTES
+*  ============================================================== */
+    @font-face {
+        font-family: 'rotoplas_bold';
+        src: url('fonts/Rotoplas-Bold.otf');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'rotoplas_bold_italic';
+        src: url('fonts/Rotoplas-BoldItalic.otf');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'rotoplas_regular';
+        src: url('fonts/Rotoplas-Regular.otf');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'rotoplas_light';
+        src: url('fonts/Rotoplas-Light.otf');
+        font-display: swap;
+    }
 
-footer h2 {
-    font-size: 24px;
-}
+    body { 
+        font-family: 'rotoplas_regular', sans-serif !important;
+        color: #002554;
+        font-size: 1rem;
+        line-height: normal;
+    }
+/* fuentes */
 
-footer img {
-    height: 30px;
-}
 
-footer a {
-    text-decoration: none;
-    color: #009cde;
-}
+/* ==============================================================
+*  COLORES
+*  ============================================================== */
+    .blue1 { color: #00AFD7; }
+    .blue2 { color: #009CDE; }
+    .blue3 { color: #407EC9; }
+    .blue4 { color: #236192; }
+    .blue5 { color: #002554; }
+
+    .bg-blue1 { background-color: #00AFD7; }
+    .bg-blue2 { background-color: #009CDE; }
+    .bg-blue3 { background-color: #407EC9; }
+    .bg-blue4 { background-color: #236192; }
+    .bg-blue5 { background-color: #002554; }
+
+    .white { color: #fff; }
+    .black { color: #000; }
+    .grey { color: #666; }
+/* colores */
+
+
+/* ==============================================================
+*  FOOTER
+*  ============================================================== */
+    footer {
+        background: #002554;
+        color: #ffffff;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+
+    footer img {
+        height: 30px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #009cde;
+    }
+/* footer */

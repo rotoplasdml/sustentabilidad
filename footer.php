@@ -26,7 +26,7 @@
 				</div>
 				<div class="row">
 					<div class="col">Copyright 2021 Rotoplas S.A. de C.V. Todos los derechos reservados</div>
-					<div class="col"><a href="#">Aviso de privacidad</a><span></span><a href="#">Código de ética</a></div>
+					<div class="col"><a href="#">Aviso de privacidad</a><span>&vert;</span><a href="#">Código de ética</a></div>
 				</div>
 			</footer>
 		</div>

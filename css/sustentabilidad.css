@@ -56,12 +56,14 @@
 *  FOOTER
 *  ============================================================== */
     footer {
+        padding: 2rem;
         background: #002554;
         color: #ffffff;
     }
 
     footer h2 {
-        font-size: 20px;
+        font-size: 18px;
+        margin-bottom: 1rem;
     }
 
     footer img {
@@ -71,5 +73,26 @@
     footer a {
         text-decoration: none;
         color: #009cde;
+    }
+
+    .footer-contacto {
+        display: block;
+        margin: .5rem 0;
+        color: #ffffff;
+    }
+    .footer-navega {
+        display: block;
+        margin: .5rem 0;
+        color: #ffffff;
+    }
+    .footer-navega span {
+        vertical-align: middle;
+        margin-left: .5rem;
+    }
+    .footer-navega img {
+        vertical-align: middle;
+    }
+    .footer-sociales {
+        margin: 0 1rem;
     }
 /* footer */

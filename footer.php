@@ -1,32 +1,39 @@
 			<!-- Footer -->
-			<footer class="row mx-0">
-				<div class="col col-sm-4">
+			<footer class="row mx-0 justify-content-between">
+				<div class="col-12 col-sm-3">
 					<h2>Contáctanos</h2>
-					<a href="mailto:jorge.arguelles@outlook.com"><img src="" alt=""> Contacto</a>
-					<br>
-					<a href="tel:08001222476"><img src="" alt=""> 0800 122 2476</a>
+					<a class="footer-contacto" href="mailto:jorge.arguelles@outlook.com"><img src="" alt=""> Contacto</a>
+					<a class="footer-contacto" href="tel:08001222476"><img src="" alt=""> 0800 122 2476</a>
 				</div>
-				<div class="col col-sm-4 text-center">
+				<div class="col-12 col-sm-4 mt-3 mt-sm-0">
 					<h2>Navega en Rotoplas Sustentabilidad</h2>
+					<a class="footer-navega" href="#"><img src="recursos/menu-vineta.svg" width="16" alt=""><span>Inicio</span></a>
+					<a class="footer-navega" href="#"><img src="recursos/menu-vineta.svg" width="16" alt=""><span>Estrategia de sustetabilidad</span></a>
+					<a class="footer-navega" href="#"><img src="recursos/menu-vineta.svg" width="16" alt=""><span>Informes anuales</span></a>
+					<a class="footer-navega" href="#"><img src="recursos/menu-vineta.svg" width="16" alt=""><span>Inversionistas</span></a>
+					<a class="footer-navega" href="#"><img src="recursos/menu-vineta.svg" width="16" alt=""><span>INNWAI</span></a>
+					<a class="footer-navega" href="#"><img src="recursos/menu-vineta.svg" width="16" alt=""><span>A Fluir</span></a>
 				</div>
-				<div class="col col-sm-4">
+				<div class="col-12 col-sm-3 mt-3 mt-sm-0">
 					<h2>Siguenos</h2>
-					<a class="hvr-float" href="https://www.facebook.com/RotoplasMexico" target="_blank">
+					<a class="footer-sociales hvr-float ml-0" href="https://www.facebook.com/RotoplasMexico" target="_blank">
 						<img src="recursos/redes-sociales/facebook.svg?5f32c575" alt="Facebook" title="Facebook">
 					</a>
-					<a class="hvr-float" href="https://twitter.com/rotoplasmexico" target="_blank">
+					<a class="footer-sociales hvr-float" href="https://twitter.com/rotoplasmexico" target="_blank">
 						<img src="recursos/redes-sociales/twitter.svg?5f32c574" alt="Twitter" title="Twitter">
 					</a>
-					<a class="hvr-float" href="https://www.youtube.com/user/masymejoragua" target="_blank">
+					<a class="footer-sociales hvr-float" href="https://www.youtube.com/user/masymejoragua" target="_blank">
 						<img src="recursos/redes-sociales/youtube.svg?5f32c574" alt="Youtube" title="Youtube">
 					</a>
-					<a class="hvr-float" href="https://www.instagram.com/gruporotoplas/" target="_blank">
-						<img src="recursos/redes-sociales/instagram.svg" alt="Instagram" title="Instagram">
+					<a class="footer-sociales hvr-float" href="https://www.linkedin.com/company/grupo-rotoplas/" target="_blank">
+						<img src="recursos/redes-sociales/linkedin.svg" alt="LinkedIn" title="LinkedIn">
 					</a>
 				</div>
-				<div class="row">
-					<div class="col">Copyright 2021 Rotoplas S.A. de C.V. Todos los derechos reservados</div>
-					<div class="col"><a href="#">Aviso de privacidad</a><span>&vert;</span><a href="#">Código de ética</a></div>
+				<div class="col-12 mt-3 p-0">
+					<div class="row p-3 blue2">
+						<div class="col-12 col-sm-6 text-center text-sm-start">Copyright 2021 Rotoplas S.A. de C.V. Todos los derechos reservados</div>
+						<div class="col-12 col-sm-6 mt-3 mt-sm-0 text-center text-sm-end"><a href="#">Aviso de privacidad</a><span>&nbsp;&nbsp;&nbsp;&vert;&nbsp;&nbsp;&nbsp;</span><a href="#">Código de ética</a></div>
+					</div>	
 				</div>
 			</footer>
 		</div>

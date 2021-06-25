@@ -27,7 +27,7 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="toggleMobileMenu">
-					<ul class="navbar-nav ms-auto text-center align-items-center">
+					<ul class="navbar-nav ms-auto text-start">
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">Inicio</a></li>
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">Estrategia de<br>Sustentabilidad</a></li>
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">Informes<br>Anuales</a></li>

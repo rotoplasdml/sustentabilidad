@@ -1,11 +1,15 @@
 			<!-- Footer -->
 			<footer class="row mx-0 justify-content-between">
-				<div class="col-12 col-sm-3">
+				<div class="col-12 col-lg-3">
 					<h2>Contáctanos</h2>
-					<a class="footer-contacto" href="mailto:jorge.arguelles@outlook.com"><img src="" alt=""> Contacto</a>
-					<a class="footer-contacto" href="tel:08001222476"><img src="" alt=""> 0800 122 2476</a>
+					<a class="footer-contacto" href="mailto:jorge.arguelles@outlook.com">
+						<img style="width:30px" src="recursos/footer-contacto.svg" alt="Contacto"> Contacto
+					</a>
+					<a class="footer-contacto" href="tel:08001222476">
+						<img src="recursos/footer-telefono.svg" alt="Teléfono"> 0800 122 2476
+					</a>
 				</div>
-				<div class="col-12 col-sm-4 mt-3 mt-sm-0">
+				<div class="col-12 col-lg-4 mt-3 mt-lg-0">
 					<h2>Navega en Rotoplas Sustentabilidad</h2>
 					<a class="footer-navega" href="#"><img src="recursos/menu-vineta.svg" width="16" alt=""><span>Inicio</span></a>
 					<a class="footer-navega" href="#"><img src="recursos/menu-vineta.svg" width="16" alt=""><span>Estrategia de sustetabilidad</span></a>
@@ -14,7 +18,7 @@
 					<a class="footer-navega" href="#"><img src="recursos/menu-vineta.svg" width="16" alt=""><span>INNWAI</span></a>
 					<a class="footer-navega" href="#"><img src="recursos/menu-vineta.svg" width="16" alt=""><span>A Fluir</span></a>
 				</div>
-				<div class="col-12 col-sm-3 mt-3 mt-sm-0">
+				<div class="col-12 col-lg-3 mt-3 mt-lg-0">
 					<h2>Siguenos</h2>
 					<a class="footer-sociales hvr-float ml-0" href="https://www.facebook.com/RotoplasMexico" target="_blank">
 						<img src="recursos/redes-sociales/facebook.svg?5f32c575" alt="Facebook" title="Facebook">

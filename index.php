@@ -12,6 +12,52 @@
 		</div>
 	</div>
 </div>
+<!-- Graficas Slider -->
+<div class="container-fluid">
+	<!-- slider -->
+	<div class="row">
+		<div class="col">
+			<div id="graficas-slider-wrapper">
+				<div class="graficas-slider-nodo">
+					<div class="graficas-slider-nodo-imagen">
+						<img src="recursos/home/graficas-slider-1.jpg" alt="Intensidad de emisiones alcance 1" title="Intensidad de emisiones alcance 1">
+					</div>
+					<div class="graficas-slider-nodo-contenidos">
+						<p>
+							<span class="light fs24 blue2">Intensidad de emisiones alcance 1</span><br>
+							<span>(toneladas de C02 equivalente por tonelada de resina procesada)</span>
+						</p>
+						<canvas id="intensidad-1"></canvas>
+					</div>
+				</div>
+				<div class="graficas-slider-nodo">
+					<div class="graficas-slider-nodo-imagen">
+						<img src="recursos/home/graficas-slider-1.jpg" alt="Intensidad de emisiones alcance 1" title="Intensidad de emisiones alcance 1">
+					</div>
+					<div class="graficas-slider-nodo-contenidos">
+						<p>
+							<span class="light fs24 blue2">Intensidad de emisiones alcance 1</span><br>
+							<span>(toneladas de C02 equivalente por tonelada de resina procesada)</span>
+						</p>
+						<canvas id="intensidad-2"></canvas>
+					</div>
+				</div>
+				<div class="graficas-slider-nodo">
+					<div class="graficas-slider-nodo-imagen">
+						<img src="recursos/home/graficas-slider-1.jpg" alt="Intensidad de emisiones alcance 1" title="Intensidad de emisiones alcance 1">
+					</div>
+					<div class="graficas-slider-nodo-contenidos">
+						<p>
+							<span class="light fs24 blue2">Intensidad de emisiones alcance 1</span><br>
+							<span>(toneladas de C02 equivalente por tonelada de resina procesada)</span>
+						</p>
+						<canvas id="intensidad-3"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <!-- Avances -->
 <div class="container-fluid">
 	<!-- titulo -->
@@ -63,24 +109,141 @@
 		</div>
 	</div>
 </div>
-<!-- Slider -->
-<div class="container-fluid">
+<!-- Proyecto Slider -->
+<div class="container-fluid mt-3 pt-3">
 	<!-- slider -->
 	<div class="row">
-		<div class="col">
-			slider
+		<div class="col p-0">
+			<div id="proyectos-slider-wrapper">
+				<div class="proyectos-slider-nodo">
+					<div class="proyectos-slider-nodo-contenidos p-3">
+						<p class="light fs24 blue2">Proyecto de Rotoplas para el impacto social, seleccionado para el UN Global Compact Leaders Summit</p>
+						<p>La plataforma Innovation 4 Water Impact propuesto por el equipo Rotoplas fue seleccionado para la Cumbre Mundial de Líderes del Pacto Mundial de las Naciones Unidas.</p>
+						<a class="rtp-btn" href="#">Ver más</a>
+					</div>
+					<div class="proyectos-slider-nodo-imagen">
+						<img src="recursos/home/proyectos-slider-1.jpg" alt="Imagen" title="Poryecto Rotoplas">
+					</div>
+				</div>
+				<div class="proyectos-slider-nodo">
+					<div class="proyectos-slider-nodo-contenidos p-3">
+						<p class="light fs24 blue2">Proyecto de Rotoplas para el impacto social, seleccionado para el UN Global Compact Leaders Summit</p>
+						<p>La plataforma Innovation 4 Water Impact propuesto por el equipo Rotoplas fue seleccionado para la Cumbre Mundial de Líderes del Pacto Mundial de las Naciones Unidas.</p>
+						<a class="rtp-btn" href="#">Ver más</a>
+					</div>
+					<div class="proyectos-slider-nodo-imagen">
+						<img src="recursos/home/proyectos-slider-1.jpg" alt="Imagen" title="Poryecto Rotoplas">
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
-<!-- Politicas -->
+<!-- Politicas Slider -->
 <div class="container-fluid">
 	<!-- titulo -->
 	<div class="row">
 		<div class="col">
-			<h2 class="light blue2 text-center">Conoce nuestras políticas y certificaciones</h2>
+			<h2 class="light blue2 text-center m-3">Conoce nuestras políticas y certificaciones</h2>
+		</div>
+	</div>
+	<!-- slider -->
+	<div class="row">
+		<div class="col">
+
+			<div id="politicas-slider-wrapper">
+				<div class="politicas-slider-nodo">
+					<div class="politicas-slider-nodo-imagen">
+						<img src="recursos/home/politicas-slider-1.jpg" alt="Imagen" title="Politicas y certificaciones">
+					</div>
+					<div class="politicas-slider-nodo-contenidos">
+						<p class="light fs20 blue2">Política de Higiene, Seguridad y Ambiente</p>
+						<a class="rtp-btn" href="#">Ver más</a>
+					</div>
+				</div>
+
+				<div class="politicas-slider-nodo">
+					<div class="politicas-slider-nodo-imagen">
+						<img src="recursos/home/politicas-slider-2.jpg" alt="Imagen" title="Politicas y certificaciones">
+					</div>
+					<div class="politicas-slider-nodo-contenidos">
+						<p class="light fs20 blue2">Política de Sustentabilidad</p>
+						<a class="rtp-btn" href="#">Ver más</a>
+					</div>
+				</div>
+
+				<div class="politicas-slider-nodo">
+					<div class="politicas-slider-nodo-imagen">
+						<img src="recursos/home/politicas-slider-3.jpg" alt="Imagen" title="Politicas y certificaciones">
+					</div>
+					<div class="politicas-slider-nodo-contenidos">
+						<p class="light fs20 blue2">Gobierno Corporativo</p>
+						<a class="rtp-btn" href="#">Ver más</a>
+					</div>
+				</div>
+
+				<div class="politicas-slider-nodo">
+					<div class="politicas-slider-nodo-imagen">
+						<img src="recursos/home/politicas-slider-1.jpg" alt="Imagen" title="Politicas y certificaciones">
+					</div>
+					<div class="politicas-slider-nodo-contenidos">
+						<p class="light fs20 blue2">Política de Higiene, Seguridad y Ambiente</p>
+						<a class="rtp-btn" href="#">Ver más</a>
+					</div>
+				</div>
+
+				<div class="politicas-slider-nodo">
+					<div class="politicas-slider-nodo-imagen">
+						<img src="recursos/home/politicas-slider-2.jpg" alt="Imagen" title="Politicas y certificaciones">
+					</div>
+					<div class="politicas-slider-nodo-contenidos">
+						<p class="light fs20 blue2">Política de Sustentabilidad</p>
+						<a class="rtp-btn" href="#">Ver más</a>
+					</div>
+				</div>
+
+				<div class="politicas-slider-nodo">
+					<div class="politicas-slider-nodo-imagen">
+						<img src="recursos/home/politicas-slider-3.jpg" alt="Imagen" title="Politicas y certificaciones">
+					</div>
+					<div class="politicas-slider-nodo-contenidos">
+						<p class="light fs20 blue2">Gobierno Corporativo</p>
+						<a class="rtp-btn" href="#">Ver más</a>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</div>
 </div>
-
+<!-- Huella hidrica -->
+<div class="container-fluid">
+	<div class="row justify-content-center">
+		<div class="col-12 col-sm-5 py-3">
+			<img class="w-100" src="recursos/home/huella-hidrica.jpg" alt="Imagen" title="Huella Hídrica">
+		</div>
+		<div class="col-12 col-sm-4 ms-3 py-3 d-flex flex-column justify-content-center align-items-start">
+			<h2 class="light fs24 blue2">Calcula tu Huella Hídrica</h2>
+			<p>La Huella Hídrica es un indicador que nos permite saber cuál es la cantidad de agua que una persona, comunidad o un país ocupa en su día a día.</p>
+			<p>Tómate un minuto y descubre cuál es tu Huella Hídrica, qué impacto tiene y algunos consejos para cuidar a este liquido que ayuda de manera esencial a todos los seres vivos.</p>
+			<a class="rtp-btn" href="#">Ver más</a>
+		</div>
+	</div>
+</div>
+<!-- Organigrama -->
+<div id="home-organigrama" class="container-fluid">
+	<!-- titulo -->
+	<div class="row">
+		<div class="col">
+			<h2 class="light blue2 text-center m-3">Organigrama</h2>
+		</div>
+	</div>
+	<!-- Imagen -->
+	<div class="row">
+		<div class="col-12 p-0">
+			<img class="w-100 pt-3" src="recursos/home/organigrama.jpg" alt="Imagen" title="Organigrama">
+		</div>
+	</div>
+</div>
 
 <?php include 'footer.php';?>

@@ -222,7 +222,7 @@
 		<div class="col-12 col-sm-5 py-3">
 			<img class="w-100" src="recursos/home/huella-hidrica.jpg" alt="Imagen" title="Huella Hídrica">
 		</div>
-		<div class="col-12 col-sm-4 ms-3 py-3 d-flex flex-column justify-content-center align-items-start">
+		<div class="col-12 col-sm-4 ms-sm-3 py-3 d-flex flex-column justify-content-center align-items-start">
 			<h2 class="light fs24 blue2">Calcula tu Huella Hídrica</h2>
 			<p>La Huella Hídrica es un indicador que nos permite saber cuál es la cantidad de agua que una persona, comunidad o un país ocupa en su día a día.</p>
 			<p>Tómate un minuto y descubre cuál es tu Huella Hídrica, qué impacto tiene y algunos consejos para cuidar a este liquido que ayuda de manera esencial a todos los seres vivos.</p>

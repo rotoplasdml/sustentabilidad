@@ -298,6 +298,74 @@
 
 
 /* ==============================================================
+*  ESTRATEGIA WEB
+*  ============================================================== */
+.estrategia-web-header-txt {
+	font-size: 30px;
+}
+
+.valor-imagenes {
+    width: 50%;
+    background: beige;
+}
+.valor-tabs-wrapper {
+    width: 50%;
+}
+
+.valor-tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.valor-tabs-nodo {
+    width: 50%;
+    padding: 1rem;
+}
+.valor-tabs-nodo p {
+    width: 40px;
+	padding: 10px 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.valor-tabs-nodo ul li {
+	list-style-type: '>\00A0';
+}
+.valor-tabs-azul ul li::marker {
+	color: #02b2db;
+}
+.valor-tabs-verde ul li::marker {
+	color: #9cc43d;
+}
+.valor-tabs-rojo ul li::marker {
+	color: #f56c4a;
+}
+
+.valor-tabs-botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.valor-tabs-botones div {
+	color: #9f9f9f;
+    width: 32%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+    border-bottom: 6px solid #9f9f9f;
+    padding-top: 1rem;
+}
+.valor-tabs-botones div.seleccion {
+	color: #002554;
+	border-bottom-color: #02b2db;
+}
+/* estrategia-web */
+
+
+/* ==============================================================
 *  FOOTER
 *  ============================================================== */
 	footer {

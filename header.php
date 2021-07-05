@@ -33,9 +33,9 @@
 				</button>
 				<div class="collapse navbar-collapse" id="toggleMobileMenu">
 					<ul class="navbar-nav ms-auto text-start">
-						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">Inicio</a></li>
-						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">Estrategia de<br>Sustentabilidad</a></li>
-						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">Informes<br>Anuales</a></li>
+						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="index.php">Inicio</a></li>
+						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="estrategia.php">Estrategia de<br>Sustentabilidad</a></li>
+						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="informes.php">Informes<br>Anuales</a></li>
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">Pacto Muncial<br>ODS</a></li>
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">Inversionistas</a></li>
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">INNWAI</a></li>

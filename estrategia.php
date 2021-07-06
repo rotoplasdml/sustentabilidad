@@ -4,7 +4,7 @@
 
 	<!-- Header -->
 	<div class="row justify-content-md-center py-3 my-3">
-		<div class="col-12 col-md-5 me-md-3 d-flex flex-column justify-content-center align-items-start">
+		<div class="col-12 col-md-6 me-md-3 d-flex flex-column justify-content-center align-items-start">
 			<p class="estrategia-web-header-txt light">En 2020 comenzamos a diseñar la evolución de la estrategia actual para poder hacer el lanzamiento de la <span class="bold">Estrategia de Sustentabilidad 2021-2025</span></p>
 			<a class="rtp-btn" href="#">Estrategia 360&deg;</a>
 		</div>

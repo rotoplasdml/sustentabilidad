@@ -36,7 +36,7 @@
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="index.php">Inicio</a></li>
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="estrategia.php">Estrategia de<br>Sustentabilidad</a></li>
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="informes.php">Informes<br>Anuales</a></li>
-						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">Pacto Muncial<br>ODS</a></li>
+						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="pacto.php">Pacto Muncial<br>ODS</a></li>
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">Inversionistas</a></li>
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">INNWAI</a></li>
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">A Fluir</a></li>

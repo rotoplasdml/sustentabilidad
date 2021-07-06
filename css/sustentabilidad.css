@@ -149,9 +149,9 @@
 			bottom: 0 !important;
 		}
 
-		#intensidad-1 {
-			/* width: 100px !important; */
-		}
+		/* #intensidad-1 {
+			width: 100px !important;
+		} */
 
 		@media screen and (max-width: 567px) {
 			.graficas-slider-nodo {

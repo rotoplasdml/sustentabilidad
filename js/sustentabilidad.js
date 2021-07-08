@@ -1,35 +1,96 @@
-/* Graficas Slider */
 jQuery(document).ready(function($){
-	$("#graficas-slider-wrapper").slick({
-		arrows: false,
-		dots: true
-	});
-	$("#proyectos-slider-wrapper").slick({
-		arrows: false,
-		dots: true
-	});
-	$("#politicas-slider-wrapper").slick({
-		slidesToShow: 3,
-		slidesToScroll: 3,
-		arrows: false,
-		dots: true,
-		responsive: [
-			{
-				breakpoint: 769,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2,
+	// Graficas sliders
+		$("#graficas-slider-wrapper").slick({
+			arrows: false,
+			dots: true
+		});
+		$("#proyectos-slider-wrapper").slick({
+			arrows: false,
+			dots: true
+		});
+		$("#politicas-slider-wrapper").slick({
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			arrows: false,
+			dots: true,
+			responsive: [
+				{
+					breakpoint: 769,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2,
+					}
+				},
+				{
+					breakpoint: 568,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+					}
 				}
-			},
-			{
-				breakpoint: 568,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
-				}
-			}
-		]
-	});
+			]
+		});
+
+
+	// VALOR // tabs modelo de sustentabilidad
+		console.log("valor:rdy");
+		$('.valor-tabs, .valor-tabs-imagen').css({'display':'none','opacity':'0'});
+		$('#valor-tabs-1').css({'display':'inline-flex','opacity':'1'});
+		$('#valor-tabs-imagen-1').css({'display':'block','opacity':'1'});
+
+		$('.valor-tab-btn').click(function(){
+			$('.valor-tab-btn').removeClass('valor-tab-btn-active');
+			focoNumero = $(this).attr('data');
+
+			$('.valor-tabs:visible').fadeTo("fast", 0, function(){
+				$(this).css('display','none');
+				$('#valor-tabs-' + focoNumero).css('display','inline-flex');
+				$('#valor-tabs-' + focoNumero).fadeTo('fast', 1);
+			});
+
+			$('.valor-tabs-imagen:visible').fadeTo("fast", 0, function(){
+				$(this).css('display','none');
+				$('#valor-tabs-imagen-' + focoNumero).css('display','block');
+				$('#valor-tabs-imagen-' + focoNumero).fadeTo('fast', 1);
+			});
+
+			$(this).addClass('valor-tab-btn-active');
+		});
+
+
+	// PACTO // tabs
+		console.log("pacto:rdy");
+		// tabs pacto
+		$('.principios-tab').css({'display':'none','opacity':'0'});
+		$('#principios-tab-1').css({'display':'inline-flex','opacity':'1'});
+
+		$('.principios-nodo').click(function(){
+			$('.principios-nodo').removeClass('principio-nodo-seleccion');
+			tabNumero = $(this).attr('data');
+
+			$('.principios-tab:visible').fadeTo("fast", 0, function(){
+				$(this).css('display','none');
+				$('#principios-tab-' + tabNumero).css('display','inline-flex');
+				$('#principios-tab-' + tabNumero).fadeTo('fast', 1);
+			});
+
+			$(this).addClass('principio-nodo-seleccion');
+		});
+		// sliders Contribucion
+			// botones - nav
+			$("#contribucion-btn-wrapper").slick({
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				asNavFor: '#contribucion-slider-wrapper',
+				centerMode: true,
+				focusOnSelect: true
+			});
+			// slider - slider
+			$("#contribucion-slider-wrapper").slick({
+				asNavFor: '#contribucion-btn-wrapper',
+				infinite: true,
+				arrows: true
+			});
 });
 
 /* Graficas */
@@ -1032,32 +1093,3 @@ window.onload = function(){
 	  }
 	});
 }
-
-/*  */
-jQuery(document).ready(function($){
-	console.log("modelo:rdy");
-
-	// tabs modelo de sustentabilidad
-		$('.valor-tabs, .valor-tabs-imagen').css({'display':'none','opacity':'0'});
-		$('#valor-tabs-1').css({'display':'inline-flex','opacity':'1'});
-		$('#valor-tabs-imagen-1').css({'display':'block','opacity':'1'});
-
-		$('.valor-tab-btn').click(function(){
-			$('.valor-tab-btn').removeClass('valor-tab-btn-active');
-			focoNumero = $(this).attr('data');
-
-			$('.valor-tabs:visible').fadeTo("fast", 0, function(){
-				$(this).css('display','none');
-				$('#valor-tabs-' + focoNumero).css('display','inline-flex');
-				$('#valor-tabs-' + focoNumero).fadeTo('fast', 1);
-			});
-
-			$('.valor-tabs-imagen:visible').fadeTo("fast", 0, function(){
-				$(this).css('display','none');
-				$('#valor-tabs-imagen-' + focoNumero).css('display','block');
-				$('#valor-tabs-imagen-' + focoNumero).fadeTo('fast', 1);
-			});
-
-			$(this).addClass('valor-tab-btn-active');
-		});
-});

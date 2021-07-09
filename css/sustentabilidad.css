@@ -490,6 +490,10 @@
 		width: 100%;
 	}
 
+	.principios-tab-imagen img {
+		width: 100%;
+	}
+
 	.contribucion-btn-nodo {
 		text-align: center;
 	}
@@ -508,7 +512,28 @@
 		display: inline-block !important;
 	}
 
-	#contribucion-nodo-1,
+	.contribucion-nodo {
+		display: flex !important;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		height: 400px;
+	}
+	.contribucion-nodo-imagen {
+		width: 15%;
+	}
+	.contribucion-nodo-imagen img {
+		width: 100%;
+	}
+	.contribucion-nodo-contenido {
+		width: 60%;
+		margin-left: 2%;
+	}
+
+	#contribucion-nodo-1 {
+		background: #01bee4;
+		background: url('../recursos/pacto/contribucion-back-1.jpg') no-repeat bottom right #01bee4;
+	}
 	#contribucion-btn-nodo-1 .contribucion-btn-imagen {
 		background: #01bee4;
 	}
@@ -520,7 +545,38 @@
 	#contribucion-btn-nodo-3 .contribucion-btn-imagen {
 		background: #00a128;
 	}
-	
+
+	#contribucion-btn-wrapper .slick-prev:before,
+	#contribucion-btn-wrapper .slick-next:before {
+		color: #002554 !important;
+	}
+
+	@media screen and (max-width: 900px) {
+		.contribucion-nodo {
+			height: auto;
+			padding-top: 1rem;
+		}
+		.contribucion-nodo-contenido {
+			width: 74%;
+			margin-left: 1%;
+		}
+		#contribucion-nodo-1 {
+			background: #01bee4;
+		}
+	}
+
+	@media screen and (max-width: 576px) {
+		.contribucion-nodo {
+			align-items: start;
+		}
+		.contribucion-nodo-imagen {
+			width: 20%;
+		}
+		.contribucion-nodo-contenido {
+			width: 70%;
+			margin-left: 0;
+		}
+	}
 
 	/* personalizacion de los botones */
 		#principios-nodo-1 .principios-nodo-imagen {
@@ -547,6 +603,11 @@
 		#principios-nodo-4:after {
 			content: 'Anticorrupción';
 		}
+
+	.ods-contenidos p:nth-child(1),
+	.ods-contenidos p:nth-child(2) {
+		font-size: 30px;
+	}
 /* pacto */
 
 
@@ -600,3 +661,11 @@
 		margin: 0 1rem;
 	}
 /* footer */
+
+.slick-prev {
+    left: 1% !important;
+    z-index: 1 !important;
+}
+.slick-next {
+    right: 1% !important;
+}

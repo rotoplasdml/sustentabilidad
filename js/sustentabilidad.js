@@ -83,7 +83,17 @@ jQuery(document).ready(function($){
 				slidesToScroll: 1,
 				asNavFor: '#contribucion-slider-wrapper',
 				centerMode: true,
-				focusOnSelect: true
+				focusOnSelect: true,
+				responsive: [
+					{
+					  breakpoint: 721,
+					  settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						arrows: true
+					  }
+					}
+				]
 			});
 			// slider - slider
 			$("#contribucion-slider-wrapper").slick({

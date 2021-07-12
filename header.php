@@ -33,13 +33,13 @@
 				</button>
 				<div class="collapse navbar-collapse" id="toggleMobileMenu">
 					<ul class="navbar-nav ms-auto text-start">
-						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="index.php">Inicio</a></li>
-						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="estrategia.php">Estrategia de<br>Sustentabilidad</a></li>
-						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="informes.php">Informes<br>Anuales</a></li>
-						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="pacto.php">Pacto Muncial<br>ODS</a></li>
-						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">Inversionistas</a></li>
-						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">INNWAI</a></li>
-						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-" href="#">A Fluir</a></li>
+						<li class="nav-item mx-xl-1"><a class="nav-link menu-color-principal" data-i18n="[html]app-menu-" href="index.php">Inicio</a></li>
+						<li class="nav-item mx-xl-1"><a class="nav-link menu-color-principal" data-i18n="[html]app-menu-" href="estrategia.php">Estrategia de<br>Sustentabilidad</a></li>
+						<li class="nav-item mx-xl-1"><a class="nav-link menu-color-principal" data-i18n="[html]app-menu-" href="informes.php">Informes<br>Anuales</a></li>
+						<li class="nav-item mx-xl-1"><a class="nav-link menu-color-principal" data-i18n="[html]app-menu-" href="pacto.php">Pacto Muncial<br>ODS</a></li>
+						<li class="nav-item mx-xl-1"><a class="nav-link menu-color-secundario" data-i18n="[html]app-menu-" href="#">Inversionistas</a></li>
+						<li class="nav-item mx-xl-1"><a class="nav-link menu-color-secundario" data-i18n="[html]app-menu-" href="#">INNWAI</a></li>
+						<li class="nav-item mx-xl-1"><a class="nav-link menu-color-secundario" data-i18n="[html]app-menu-" href="#">A Fluir</a></li>
 						<li class="nav-item mx-xl-1">
 							<select class="form-select w-auto h-100 my-2 my-lg-0" name="languageSelector" id="languageSelector">
 								<option data-i18n="app-selector-es" value="es">Esp</option>

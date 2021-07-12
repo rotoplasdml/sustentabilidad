@@ -108,6 +108,19 @@
 	color: #ffffff !important;
 }
 
+.menu-color-principal {
+	color: #002554 !important;
+}
+.menu-color-principal:hover {
+	color: #009CDE !important;
+}
+.menu-color-secundario {
+	color: #009CDE !important;
+}
+.menu-color-secundario:hover {
+	color: #002554 !important;
+}
+
 
 /* ==============================================================
 *  HOME
